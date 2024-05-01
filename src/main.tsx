@@ -8,8 +8,8 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import ProductViewModal from "../components/productViewModal.tsx"
 import AboutUs from "./routes/aboutUs.tsx"
 import Contact from "./routes/contact.tsx"
-import "./index.css"
-import "./root.css"
+import "../public/index.css"
+import "../public/root.css"
 
 
 const router = createHashRouter([
