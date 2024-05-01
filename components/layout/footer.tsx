@@ -6,7 +6,7 @@ function Footer() {
         <footer className="flex w-full flex-col items-center px-6 align-middle justify-center bg-gray-200/50">
 
             <div className="flex  flex-col w-full   bg-transparen py-16 px-4 mt-16 mx-4 gap-y-10 border-y-[1.5px] border-gray-200/50">
-                <a href="/IntegralMaderasYHerrajes/" className="size-min ">
+                <a href="/integral-maderas-y-herrajes/#/" className="size-min ">
                     <div className=" flex  justify-center align-center overflow-hidden bg-green-400 shadow-2xl hover:shadow-green-400 hover:duration-500 rounded-md w-24 h-24 ml-4 ">
                         <img src={logo} alt="logo de integral maderas y herrajes"
                             className="object-contain w-full h-auto " />

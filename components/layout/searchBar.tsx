@@ -28,7 +28,7 @@ function SearchBar({ onClickSetIsSerching }: { onClickSetIsSerching: () => void 
     
 
     return (
-        <div className="flex flex-1  flex-col  overflow-visible align-middle items-center justify-between gap-4 m-2 sm:m-4  md:mx-8" >
+        <div className="flex flex-1  flex-col  overflow-hidden align-middle items-center justify-between gap-4 m-2 sm:m-4  md:mx-8" >
             <div className="  w-full   bg-white    border-b border-b-gray-900/10">
                 <div className="flex h-16  px-7 py-2 justify-between gap-8 items-end">
 
@@ -61,7 +61,7 @@ function SearchBar({ onClickSetIsSerching }: { onClickSetIsSerching: () => void 
                 matchesProducts.length > 0
                     ?
 
-                    <div className="sticky max-lg:overflow-y-scroll w-[96%] flex  sm:p-4  min-h-52 bg-white rounded-md  border-b-gray-900/10">
+                    <div className="sticky max-lg:overflow-y-scroll w-[96%] flex  sm:p-4 max-md:max-h-[50dvh]  min-h-52 bg-white rounded-md  border-b-gray-900/10">
 
 
                         <div className="flex flex-col w-full gap-4">

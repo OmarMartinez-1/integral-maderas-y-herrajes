@@ -136,7 +136,8 @@ function Header() {
               {mobileMenuOpen ?
                 <div className="slide-in-right  fixed flex justify-end md:hidden inset-y-0 right-0 z-10 w-full h-[100dvh]  bg-black/50 ">
                   <button className="size-full hidden sm:block" onClick={() => setMobileMenuOpen(false)} />
-                  <div className="md:hidden inset-y-0   w-full h-full  bg-white px-6  pb-6 pt-9 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 border">
+
+                  <div className="md:hidden inset-y-0  overflow-y-scroll  w-full h-[100dvh]  bg-white px-6  pb-6 pt-9 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 border">
                     <div className="flex items-center justify-end">
 
                       <button
@@ -151,9 +152,11 @@ function Header() {
                       </button>
                     </div>
 
+
+
                     <div className="mt-6  flow-root">
                       <div className=" border-b border-gray-500/10 " />
-                      <div className="-my-6 h-full divide-y divide-gray-500/10 ">
+                      <div className="-my-6 h- divide-y divide-gray-500/10 ">
                         <div className="flex flex-col gap-7 space-y-2 py-6 ">
                           <div className="-mx-3">
 
@@ -189,12 +192,12 @@ function Header() {
                         <div className="h-full flex flex-col justify-end items-center gap-6 py-16 mt-8">
 
 
-                          <a href="/IntegralMaderasYHerrajes/" className="h-min w-min  ">
+                          <Link to="/" className="h-min w-min  ">
                             <div className=" flex  justify-center align-center overflow-hidden bg-green-400 shadow-2xl hover:shadow-green-400 hover:duration-500 rounded-md w-24 h-24">
                               <img src={sidebarLogo} alt="logo de integral maderas y herrajes"
                                 className="object-contain w-full h-auto " />
                             </div>
-                          </a>
+                          </Link>
 
                           <p className="w-48 text-center text-base font-semibold leading-7 text-gray-900">Integral Maderas Y Herrajes. Inc ©</p>
 
@@ -204,6 +207,7 @@ function Header() {
 
 
                     </div>
+                    
 
                   </div>
                 </div>
